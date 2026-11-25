@@ -6,51 +6,52 @@
   <title>Sunil Kumar | FinTech & Enterprise AI Architect</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: #020617; color: #f1f5f9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; }
+    body { background: #fffbeb; color: #1c1917; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; }
     a { text-decoration: none; }
     .container { max-width: 1024px; margin: 0 auto; padding: 0 24px; }
-    nav { border-bottom: 1px solid #064e3b; background: rgba(2, 6, 23, 0.95); position: sticky; top: 0; z-index: 50; }
+    nav { border-bottom: 1px solid #fde68a; background: rgba(255, 251, 235, 0.95); position: sticky; top: 0; z-index: 50; }
     .nav-inner { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; max-width: 1024px; margin: 0 auto; }
-    .brand { font-weight: 800; font-size: 18px; color: #34d399; letter-spacing: 1px; }
-    .nav-links a { color: #cbd5e1; font-size: 14px; margin-left: 24px; }
-    .nav-links a:hover { color: #34d399; }
-    header { padding: 72px 24px; }
-    .eyebrow { color: #34d399; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; }
-    h1 { font-size: 42px; font-weight: 800; color: #ffffff; line-height: 1.2; margin-bottom: 20px; }
-    .subtitle { color: #cbd5e1; font-size: 18px; max-width: 760px; margin-bottom: 32px; }
+    .brand { font-weight: 800; font-size: 18px; color: #b45309; letter-spacing: 1px; }
+    .nav-links a { color: #57534e; font-size: 14px; font-weight: 600; margin-left: 24px; }
+    .nav-links a:hover { color: #b45309; }
+    header { padding: 72px 24px; background: linear-gradient(180deg, #fef3c7 0%, #fffbeb 100%); }
+    .eyebrow { color: #b45309; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px; }
+    h1 { font-size: 42px; font-weight: 800; color: #1c1917; line-height: 1.2; margin-bottom: 20px; }
+    .subtitle { color: #44403c; font-size: 18px; max-width: 760px; margin-bottom: 32px; }
     .btn-group { display: flex; flex-wrap: wrap; gap: 14px; }
-    .btn-primary { background: #059669; color: #ffffff; font-weight: 600; padding: 12px 24px; border-radius: 8px; }
-    .btn-primary:hover { background: #10b981; }
-    .btn-outline { border: 1px solid #059669; color: #34d399; font-weight: 600; padding: 12px 24px; border-radius: 8px; }
-    .btn-outline:hover { background: #022c22; }
-    .btn-muted { border: 1px solid #334155; color: #cbd5e1; font-weight: 600; padding: 12px 24px; border-radius: 8px; }
-    .stats-bar { border-top: 1px solid #064e3b; border-bottom: 1px solid #064e3b; background: rgba(6, 78, 59, 0.18); padding: 32px 0; }
+    .btn-primary { background: #d97706; color: #ffffff; font-weight: 600; padding: 12px 24px; border-radius: 8px; box-shadow: 0 2px 6px rgba(217, 119, 6, 0.25); }
+    .btn-primary:hover { background: #b45309; }
+    .btn-outline { border: 1.5px solid #d97706; color: #b45309; background: #ffffff; font-weight: 600; padding: 12px 24px; border-radius: 8px; }
+    .btn-outline:hover { background: #fef3c7; }
+    .btn-muted { border: 1.5px solid #d6d3d1; color: #44403c; background: #ffffff; font-weight: 600; padding: 12px 24px; border-radius: 8px; }
+    .btn-muted:hover { border-color: #b45309; color: #b45309; }
+    .stats-bar { border-top: 1px solid #fcd34d; border-bottom: 1px solid #fcd34d; background: #fef3c7; padding: 32px 0; }
     .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; text-align: center; }
-    .stat-num { font-size: 24px; font-weight: 800; color: #34d399; }
-    .stat-label { font-size: 12px; color: #94a3b8; text-transform: uppercase; margin-top: 4px; letter-spacing: 0.5px; }
+    .stat-num { font-size: 24px; font-weight: 800; color: #b45309; }
+    .stat-label { font-size: 12px; color: #57534e; font-weight: 600; text-transform: uppercase; margin-top: 4px; letter-spacing: 0.5px; }
     section { padding: 64px 0; }
-    h2 { font-size: 26px; font-weight: 700; color: #ffffff; margin-bottom: 8px; }
-    .sec-sub { color: #94a3b8; margin-bottom: 36px; }
+    h2 { font-size: 26px; font-weight: 700; color: #1c1917; margin-bottom: 8px; }
+    .sec-sub { color: #57534e; margin-bottom: 36px; }
     .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
-    .card { background: #0f172a; border: 1px solid #064e3b; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; }
-    .card:hover { border-color: #10b981; }
-    .tag-cat { font-size: 11px; font-weight: 700; color: #34d399; text-transform: uppercase; letter-spacing: 1px; }
-    .card h3 { font-size: 19px; font-weight: 700; color: #ffffff; margin: 8px 0 12px; }
-    .card p { font-size: 14px; color: #cbd5e1; margin-bottom: 20px; }
+    .card { background: #ffffff; border: 1.5px solid #fde68a; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(180, 83, 9, 0.06); }
+    .card:hover { border-color: #d97706; }
+    .tag-cat { font-size: 11px; font-weight: 700; color: #d97706; text-transform: uppercase; letter-spacing: 1px; }
+    .card h3 { font-size: 19px; font-weight: 700; color: #1c1917; margin: 8px 0 12px; }
+    .card p { font-size: 14px; color: #44403c; margin-bottom: 20px; }
     .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
-    .pill { background: #022c22; color: #6ee7b7; font-size: 12px; padding: 4px 10px; border-radius: 6px; }
-    .card-link { font-size: 14px; font-weight: 600; color: #34d399; }
+    .pill { background: #fef3c7; color: #92400e; font-weight: 600; font-size: 12px; padding: 4px 10px; border-radius: 6px; border: 1px solid #fde68a; }
+    .card-link { font-size: 14px; font-weight: 700; color: #b45309; }
     .card-link:hover { text-decoration: underline; }
-    .stack-section { border-top: 1px solid #1e293b; background: rgba(15, 23, 42, 0.5); }
+    .stack-section { border-top: 1px solid #fde68a; background: #fef9c3; }
     .stack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-    .stack-box { background: #0f172a; border: 1px solid #1e293b; border-radius: 8px; padding: 20px; }
-    .stack-box h4 { color: #34d399; font-size: 15px; margin-bottom: 8px; }
-    .stack-box p { color: #cbd5e1; font-size: 14px; }
-    footer { border-top: 1px solid #064e3b; padding: 48px 24px; text-align: center; }
-    footer h2 { font-size: 20px; margin-bottom: 8px; }
-    footer p { color: #94a3b8; font-size: 14px; margin-bottom: 20px; }
-    .footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; font-size: 14px; font-weight: 600; }
-    .footer-links a { color: #34d399; }
+    .stack-box { background: #ffffff; border: 1px solid #fde68a; border-radius: 8px; padding: 20px; }
+    .stack-box h4 { color: #b45309; font-size: 15px; margin-bottom: 8px; }
+    .stack-box p { color: #44403c; font-size: 14px; }
+    footer { border-top: 1px solid #fcd34d; background: #fef3c7; padding: 48px 24px; text-align: center; }
+    footer h2 { font-size: 20px; color: #1c1917; margin-bottom: 8px; }
+    footer p { color: #57534e; font-size: 14px; margin-bottom: 20px; }
+    .footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; font-size: 14px; font-weight: 700; }
+    .footer-links a { color: #b45309; }
   </style>
 </head>
 <body>
@@ -66,16 +67,18 @@
     </div>
   </nav>
 
-  <header class="container">
-    <div class="eyebrow">Technical Lead &bull; Senior Java Backend &amp; Enterprise AI Architect &bull; FDE</div>
-    <h1>Architecting Fault-Tolerant FinTech Systems &amp; Secure Java-Native Agentic AI.</h1>
-    <p class="subtitle">
-      10+ years leading cross-functional engineering pods for Tier-1 global banks (Standard Chartered, Wells Fargo) and enterprise platforms on AWS. Specializing in high-throughput microservices, Apache Kafka reconciliation, and PII-safe RAG pipelines.
-    </p>
-    <div class="btn-group">
-      <a href="#projects" class="btn-primary">Explore Flagship Systems</a>
-      <a href="https://github.com" target="_blank" class="btn-outline">GitHub Profile</a>
-      <a href="https://www.linkedin.com/in/sunilkumar-fintech-architect/" target="_blank" class="btn-muted">LinkedIn</a>
+  <header>
+    <div class="container">
+      <div class="eyebrow">Technical Lead &bull; Senior Java Backend &amp; Enterprise AI Architect &bull; FDE</div>
+      <h1>Architecting Fault-Tolerant FinTech Systems &amp; Secure Java-Native Agentic AI.</h1>
+      <p class="subtitle">
+        10+ years leading cross-functional engineering pods for Tier-1 global banks (Standard Chartered, Wells Fargo) and enterprise platforms on AWS. Specializing in high-throughput microservices, Apache Kafka reconciliation, and PII-safe RAG pipelines.
+      </p>
+      <div class="btn-group">
+        <a href="#projects" class="btn-primary">Explore Flagship Systems</a>
+        <a href="https://github.com" target="_blank" class="btn-outline">GitHub Profile</a>
+        <a href="https://linkedin.com" target="_blank" class="btn-muted">LinkedIn</a>
+      </div>
     </div>
   </header>
 
@@ -156,15 +159,3 @@
         </div>
         <div class="stack-box">
           <h4>Security &amp; FDE Delivery</h4>
-          <p>OAuth2, JWT, mTLS, OWASP Secure Coding, On-Site Client Discovery, Rapid Prototyping, Pod Leadership (10+ Engineers)</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer id="contact">
-    <h2>Available for Senior Architect, FDE &amp; Consulting Engagements</h2>
-    <p>Bengaluru, India &bull; Remote &amp; Global Travel Ready</p>
-    <div class="footer-links">
-      <a href="mailto:telco.sunil@gmail.com">telco.sunil@gmail.com</a>
-      <span>&bull;</span>
